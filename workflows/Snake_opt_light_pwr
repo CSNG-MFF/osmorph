@@ -1,0 +1,27 @@
+import numpy as np
+import os
+from neurostim.utils import unique_param_str
+# paramset unique string wildcard order
+paramset_wc_order = ['hoc_file', 'light_model', 'chanrhod_distribution', 'chanrhod_expression',
+    'fiber_diameter', 'fiber_NA', 'stim_duration', 'l_min', 'l_max','APC_desired']
+configfile: 'workflows/config_opt_light_pwr.yml'
+
+rule all:
+  input: os.path.join(config['out_path'],'all_data.hdf')
+
+rule merge_data:
+  output: os.path.join(config['out_path'],'all_data.hdf')
+  input: [''.join([config['out_path'],'/sim_data/', paramset_id, '.hdf']) for paramset_id in config['paramset_ids']]
+  script: '../scripts/merge_spatial_profile_data.py' 
+
+rule simulate_data:
+  output: temp(''.join([config['out_path'],'/sim_data/',unique_param_str(paramset_wc_order),'.hdf']))
+  params:
+    tot_rec_time = config['tot_rec_time'],
+    interpol_dt = config['interpol_dt'],
+    radius_min_max_step = config['radius_min_max_step'],
+    angle_min_max_step = config['angle_min_max_step'],
+    cortical_depth = config['cortical_depth'],
+    light_delay = config['light_delay'],
+    AP_threshold = config['AP_threshold']
+  script: '../scripts/find_spatial_profile_at_opt_light_pwr.py'

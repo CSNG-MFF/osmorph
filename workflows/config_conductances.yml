@@ -1,0 +1,32 @@
+out_path: 'data/test'
+
+# neuron params
+hoc_files: ['L5']
+chanrhod_distributions: ['uniform']
+chanrhod_expressions: [13000000000] # soma channel density in 1/cm2
+cortical_depth:
+  L23: 400 # um
+  L5: 1170 # um
+
+# stim params
+light_model: 'foutz_et_al2012'
+# Thorlabs has Multimode optical fibers with NA 0.10 d=[10,25,105], NA 0.22 d=[50,100,200,300,400,600], NA=0.39 d=[200,300,400,600,800,1000,1500], NA=0.50 d=[200,400,600,1000,1500]
+fiber_diameters: [200] # um, irrelevant if light_model doesnt support this param
+fiber_NAs: [0.22]
+light_powers: [5e-5]
+
+light_delay: 1 # ms
+stim_durations: [200] # ms
+
+# radial plot params
+radius_min_max_step: [0,25,25] # um
+angle_min_max_step: [0.0, 6.283185307179586, 0.39269908169872414] # radiant
+# pi/2 = 1.5707963267948966
+# pi/8 = 0.39269908169872414
+# pi   = 3.141592653589793
+# 2pi  = 6.283185307179586
+
+# others
+tot_rec_time: 211 # ms light_delay+light_duration+10
+interpol_dt: 0.1 # ms
+AP_threshold: 0 # mV

@@ -1,0 +1,32 @@
+out_path: 'data/2023-03-03_newChRdistrib_higherChRexpression'
+
+# neuron params
+hoc_files: ['L5','L23']
+chanrhod_distributions: ['uniform','shemesh_supfig9b_exp_yoff','shemesh_supfig9b_exp_lin_yoff']
+chanrhod_expressions: [130000000000] # soma channel density in 1/cm2
+cortical_depth:
+  L23: 400 # um
+  L5: 1170 # um
+
+# stim params
+light_model: 'foutz_et_al2012'
+# Thorlabs has Multimode optical fibers with NA 0.10 d=[10,25,105], NA 0.22 d=[50,100,200,300,400,600], NA=0.39 d=[200,300,400,600,800,1000,1500], NA=0.50 d=[200,400,600,1000,1500]
+fiber_diameters: [200] # um, irrelevant if light_model doesnt support this param
+fiber_NAs: [0.22]
+light_powers: [1e-06, 2e-06, 3e-06, 4e-06, 5e-06, 6e-06, 7e-06, 8e-06, 9e-06,1e-05, 2e-05, 3e-05, 4e-05, 5e-05, 6e-05, 7e-05, 8e-05, 9e-05, 1e-04, 2e-04, 3e-04, 4e-04, 5e-04, 6e-04, 7e-04, 8e-04, 9e-04, 1e-03, 2e-03, 3e-03, 4e-03, 5e-03, 6e-03, 7e-03, 8e-03, 9e-03, 1e-02, 2e-02, 3e-02, 4e-02, 5e-02, 6e-02, 7e-02, 8e-02, 9e-02, 1e-01, 2e-01, 3e-01, 4e-01, 5e-01, 6e-01, 7e-01, 8e-01]
+
+light_delay: 1 # ms
+stim_durations: [200] # ms
+
+# radial plot params
+radius_min_max_step: [0,1000,25] # um
+angle_min_max_step: [0.0, 6.283185307179586, 0.39269908169872414] # radiant
+# pi/2 = 1.5707963267948966
+# pi/8 = 0.39269908169872414
+# pi   = 3.141592653589793
+# 2pi  = 6.283185307179586
+
+# others
+tot_rec_time: 211 # ms light_delay+light_duration+10
+interpol_dt: 0.1 # ms
+AP_threshold: 0 # mV

@@ -1,0 +1,126 @@
+out_path: 'data/finaldata_fig7_pr10'
+
+# wildcards
+
+target_prs: [10]
+
+cell_dicts:
+        - cellname: "L5"               # 13e9 ChR channels / cm2
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 13000000000
+          ChR_distribution: 'uniform'
+        - cellname: "L5"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 13000000000
+          ChR_distribution: 'shemesh_supfig9b_exp_yoff'
+        - cellname: "L5"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 13000000000
+          ChR_distribution: 'shemesh_supfig9b_exp_lin_yoff'
+        - cellname: "L23"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 13000000000
+          ChR_distribution: 'uniform'
+        - cellname: "L23"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 13000000000
+          ChR_distribution: 'shemesh_supfig9b_exp_yoff'
+        - cellname: "L23"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 13000000000
+          ChR_distribution: 'shemesh_supfig9b_exp_lin_yoff'
+        - cellname: "L5"               # 13e10 ChR channels / cm2
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 130000000000
+          ChR_distribution: 'uniform'
+        - cellname: "L5"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 130000000000
+          ChR_distribution: 'shemesh_supfig9b_exp_yoff'
+        - cellname: "L5"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 130000000000
+          ChR_distribution: 'shemesh_supfig9b_exp_lin_yoff'
+        - cellname: "L23"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 130000000000
+          ChR_distribution: 'uniform'
+        - cellname: "L23"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 130000000000
+          ChR_distribution: 'shemesh_supfig9b_exp_yoff'
+        - cellname: "L23"
+          cortical_depth:
+                  L23: 400 # um
+                  L5: 1170 # um
+          ChR_soma_density: 130000000000
+          ChR_distribution: 'shemesh_supfig9b_exp_lin_yoff'
+
+stimulator_dicts:
+        - diameter_um: 200
+          NA: 0.22
+
+# params
+
+tolerance: 0.1
+
+stim_intensity_mWPERmm2_minmax:
+        L5:
+                uniform:
+                        13000000000: [0.01,500]
+                        130000000000: [0.01,50]
+                shemesh_supfig9b_exp_yoff:
+                        13000000000: [0.4,2000]
+                        130000000000: [0.4,200]
+                shemesh_supfig9b_exp_lin_yoff:
+                        13000000000: [1,20000]
+                        130000000000: [1,2000]
+        L23:
+                uniform:
+                        13000000000: [0.01,500]
+                        130000000000: [0.01,50]
+                shemesh_supfig9b_exp_yoff:
+                        13000000000: [0.4,500]
+                        130000000000: [0.4,50]
+                shemesh_supfig9b_exp_lin_yoff:
+                        13000000000: [0.1,500]
+                        130000000000: [0.1,50]
+
+temp_protocol:
+        duration_ms: 200
+        delay_ms: 1
+        total_rec_time_ms: 211
+
+# radial plot params
+radius_min_max_step: [0,300,25] # um
+angle_min_max_step: [0.0, 6.283185307179586, 0.39269908169872414] # radiant
+# pi/2 = 1.5707963267948966
+# pi/8 = 0.39269908169872414
+# pi   = 3.141592653589793
+# 2pi  = 6.283185307179586
+
+# others
+interpol_dt: 0.1 # ms
+AP_threshold: 0 # mV

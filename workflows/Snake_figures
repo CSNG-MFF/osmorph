@@ -1,0 +1,37 @@
+import numpy as np
+import os
+from neurostim.utils import unique_param_str
+# paramset unique string wildcard order
+paramset_wc_order = ['hoc_file','chanrhod_distribution','chanrhod_expression','light_model','fiber_diameter','fiber_NA','stim_duration','light_power']
+
+configfile: 'workflows/config_simdata_fig6fig7.yml'
+
+rule all:
+  input: os.path.join(config['out_path'],'all_data.hdf')
+
+rule merge_data:
+  output: os.path.join(config['out_path'],'all_data.hdf')
+  input: 
+    expand(''.join([config['out_path'],'/sim_data/',unique_param_str(paramset_wc_order),'.pickle']),
+           hoc_file=config['hoc_files'],
+           chanrhod_distribution=config['chanrhod_distributions'],
+           chanrhod_expression=config['chanrhod_expressions'],
+           light_model=config['light_model'],
+           fiber_diameter=config['fiber_diameters'], 
+           fiber_NA=config['fiber_NAs'],
+           stim_duration=config['stim_durations'],
+           light_power=config['light_powers'])
+  script: '../scripts/merge_spatial_profile_data.py' 
+
+rule simulate_data:
+  output: ''.join([config['out_path'],'/sim_data/',unique_param_str(paramset_wc_order),'.pickle'])
+  params:
+    tot_rec_time = config['tot_rec_time'],
+    interpol_dt = config['interpol_dt'],
+    radius_min_max_step = config['radius_min_max_step'],
+    angle_min_max_step = config['angle_min_max_step'],
+    cortical_depth = config['cortical_depth'],
+    light_delay = config['light_delay'],
+    AP_threshold = config['AP_threshold'],
+    record_conductances = config['record_conductance'],
+  script: '../scripts/measure_spatial_profile.py'
