@@ -1,11 +1,12 @@
 out_file: 'data/L5_low_sodium.hdf'
 
-neuronfile: 'workflows/passdends/neuron_data.hdf'
+neuronfile: 'workflows/neuron_data.hdf'
 stimulatorfile: 'workflows/stimulator_data.hdf'
-intensityfile: 'workflows/passdends/intensity_data.hdf'
+intensityfile: 'workflows/intensity_data.hdf'
 
 # neurons from neuron_data.hdf to be simulated:
 neurons : [
+        'L5_uniform_13e9',
         'L5_uniform_13e9_dendlowsod'
 ]
 # stimulators from stimulator_data.hdf to be simulated
