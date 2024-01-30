@@ -2,9 +2,9 @@ import pandas as pd
 
 configfile: 'workflows/config_simdata_fig6fig7.yml'
 
-neuron_data = pd.read_hdf('workflows/neuron_data.hdf')
-stimulator_data = pd.read_hdf('workflows/stimulator_data.hdf')
-intensities = pd.read_hdf('workflows/intensity_data.hdf').intensity.values
+neuron_data = pd.read_hdf(config['neuronfile'])
+stimulator_data = pd.read_hdf(config['stimulatorfile'])
+intensities = pd.read_hdf(config['intensityfile']).intensity.values
 
 rule all:
   input: config['out_file']

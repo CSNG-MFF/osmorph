@@ -4,11 +4,6 @@ from neurostim.analysis import simulate_spatial_profile
 from neurostim.analysis import get_AP_count
 from neurostim.analysis import multiply_seg_with_area
 
-
-cortical_depth = {
-    snakemake.params.neuron_data.loc[snakemake.wildcards.neuron].hoc:\
-    snakemake.params.neuron_data.loc[snakemake.wildcards.neuron].cortical_depth,
-}
 # create variables and analysis
 ## record time and voltage at soma
 seg_rec_vars = [
@@ -54,7 +49,9 @@ results = simulate_spatial_profile(
     cell_dict=dict(
         cellname=snakemake.params.neuron_data.loc[
             snakemake.wildcards.neuron].hoc,
-        cortical_depth=cortical_depth,
+        cortical_depth=float(
+            snakemake.params.neuron_data.loc[snakemake.wildcards.neuron].cortical_depth
+            ),
         ChR_soma_density=snakemake.params.neuron_data.loc[
             snakemake.wildcards.neuron].ChR_soma_density,
         ChR_distribution=snakemake.params.neuron_data.loc[

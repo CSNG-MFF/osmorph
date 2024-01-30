@@ -1,0 +1,30 @@
+out_file: 'data/L5_low_sodium.hdf'
+
+neuronfile: 'workflows/passdends/neuron_data.hdf'
+stimulatorfile: 'workflows/stimulator_data.hdf'
+intensityfile: 'workflows/passdends/intensity_data.hdf'
+
+# neurons from neuron_data.hdf to be simulated:
+neurons : [
+        'L5_uniform_13e9_dendlowsod'
+]
+# stimulators from stimulator_data.hdf to be simulated
+stimulators : ['fiber_200_0.22']
+
+# temporal protocol
+light_delay: 1 # ms
+light_duration: 200 # ms
+
+# radial plot params
+radius_min_max_step: [0,1000,25] # um
+angle_min_max_step: [0.0, 6.283185307179586, 0.39269908169872414] # radiant
+# pi/8 = 0.39269908169872414
+# pi/2 = 1.5707963267948966
+# pi   = 3.141592653589793
+# 2pi  = 6.283185307179586
+
+# others
+tot_rec_time: 211 # ms light_delay+light_duration+10
+interpol_dt: 0.1 # ms
+AP_threshold: 0 # mV
+record_conductance: False
