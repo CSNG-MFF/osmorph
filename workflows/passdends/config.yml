@@ -1,13 +1,18 @@
-out_file: 'data/L5_low_sodium.hdf'
+out_dir: 'data/test/'
 
-neuronfile: 'workflows/neuron_data.hdf'
-stimulatorfile: 'workflows/stimulator_data.hdf'
-intensityfile: 'workflows/intensity_data.hdf'
+recordings: ['spatial_profiles.hdf', 'NEURONvars.hdf']
+# recordings: ['NEURONvars.hdf']
+
+neuronfile: 'workflows/neuron_data.csv'
+stimulatorfile: 'workflows/stimulator_data.csv'
+intensityfile: 'workflows/intensity_data_sodcomp.csv'
 
 # neurons from neuron_data.hdf to be simulated:
 neurons : [
         'L5_uniform_13e9',
-        'L5_uniform_13e9_dendlowsod'
+        'L5_uniform_13e9_dendlowsod20',
+        'L5_uniform_13e9_dendlowsod30',
+        'L5_uniform_13e9_dendlowsod50',
 ]
 # stimulators from stimulator_data.hdf to be simulated
 stimulators : ['fiber_200_0.22']
@@ -17,7 +22,7 @@ light_delay: 1 # ms
 light_duration: 200 # ms
 
 # radial plot params
-radius_min_max_step: [0,1000,25] # um
+radius_min_max_step: [0,525,25] # um
 angle_min_max_step: [0.0, 6.283185307179586, 0.39269908169872414] # radiant
 # pi/8 = 0.39269908169872414
 # pi/2 = 1.5707963267948966
@@ -27,5 +32,15 @@ angle_min_max_step: [0.0, 6.283185307179586, 0.39269908169872414] # radiant
 # others
 tot_rec_time: 211 # ms light_delay+light_duration+10
 interpol_dt: 0.1 # ms
+
+# record NEURON vars
+rec_vars: [
+        ['time [ms]', 'V_soma(0.5)', 'V_dend11[60](0)', 'V_dend11[24](0)'],
+        ['h._ref_t', 'h.soma(0.5)._ref_v', 'h.dend11[60](0)._ref_v', 'h.dend11[24](0)._ref_v']
+]
+
+# record spatial profiles
 AP_threshold: 0 # mV
+
+# other
 record_conductance: False

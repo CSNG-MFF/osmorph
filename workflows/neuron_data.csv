@@ -1,0 +1,16 @@
+neuron,hoc,cortical_depth,ChR_soma_density,ChR_distribution
+L5_uniform_13e9,L5,1170.0,13000000000.0,uniform
+L5_shemesh_supfig9b_exp_yoff_13e9,L5,1170.0,13000000000.0,shemesh_supfig9b_exp_yoff
+L5_shemesh_supfig9b_exp_lin_yoff_13e9,L5,1170.0,13000000000.0,shemesh_supfig9b_exp_lin_yoff
+L5_uniform_13e10,L5,1170.0,130000000000.0,uniform
+L5_shemesh_supfig9b_exp_yoff_13e10,L5,1170.0,130000000000.0,shemesh_supfig9b_exp_yoff
+L5_shemesh_supfig9b_exp_lin_yoff_13e10,L5,1170.0,130000000000.0,shemesh_supfig9b_exp_lin_yoff
+L23_uniform_13e9,L23,400.0,13000000000.0,uniform
+L23_shemesh_supfig9b_exp_yoff_13e9,L23,400.0,13000000000.0,shemesh_supfig9b_exp_yoff
+L23_shemesh_supfig9b_exp_lin_yoff_13e9,L23,400.0,13000000000.0,shemesh_supfig9b_exp_lin_yoff
+L23_uniform_13e10,L23,400.0,130000000000.0,uniform
+L23_shemesh_supfig9b_exp_yoff_13e10,L23,400.0,130000000000.0,shemesh_supfig9b_exp_yoff
+L23_shemesh_supfig9b_exp_lin_yoff_13e10,L23,400.0,130000000000.0,shemesh_supfig9b_exp_lin_yoff
+L5_uniform_13e9_dendlowsod20,L5dendlowsod20,1170.0,13000000000.0,uniform
+L5_uniform_13e9_dendlowsod30,L5dendlowsod30,1170.0,13000000000.0,uniform
+L5_uniform_13e9_dendlowsod50,L5dendlowsod50,1170.0,13000000000.0,uniform

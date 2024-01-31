@@ -1,26 +1,33 @@
 import pandas as pd
 
-configfile: 'workflows/config_simdata_fig6fig7.yml'
-
-neuron_data = pd.read_hdf(config['neuronfile'])
-stimulator_data = pd.read_hdf(config['stimulatorfile'])
-intensities = pd.read_hdf(config['intensityfile']).intensity.values
+neuron_data = pd.read_csv(
+	config['neuronfile'], 
+	index_col='neuron', 
+	dtype=dict(neuron=str, hoc=str, cortical_depth=float, 
+		ChR_soma_density=float, ChR_distribution=str)
+)
+stimulator_data = pd.read_csv(
+	config['stimulatorfile'],
+	index_col='stimulator', 
+	dtype=dict(stimulator=str, diameter=int, NA=float)
+)
+intensities = pd.read_csv(config['intensityfile'], index_col=0).intensity.values
 
 rule all:
-  input: config['out_file']
+  input: [config['out_dir']+outfile for outfile in config['recordings']]
 
-rule merge_data:
-  output: config['out_file']
+rule merge_spatial_data:
+  output: config['out_dir']+'spatial_profiles.hdf'
   input: 
-    expand('data/tmp_data/{neuron}__{stimulator}__{intensity}.hdf',
+    expand('data/spatial_data/{neuron}__{stimulator}__{intensity}.hdf',
            neuron=config['neurons'],
            stimulator=config['stimulators'],
            intensity=intensities
     )
   script: '../scripts/merge_spatial_profile_data.py' 
 
-rule simulate_data:
-  output: 'data/tmp_data/{neuron}__{stimulator}__{intensity}.hdf'
+rule simulate_spatial_data:
+  output: 'data/spatial_data/{neuron}__{stimulator}__{intensity}.hdf'
   params:
     neuron_data = neuron_data,
     stimulator_data = stimulator_data,
@@ -33,3 +40,27 @@ rule simulate_data:
     AP_threshold = config['AP_threshold'],
     record_conductances = config['record_conductance'],
   script: '../scripts/measure_spatial_profile.py'
+
+rule merge_NEURONvars_data:
+  output: config['out_dir']+'NEURONvars.hdf'
+  input: 
+    expand('data/NEURONvars_data/{neuron}__{stimulator}__{intensity}.hdf',
+           neuron=config['neurons'],
+           stimulator=config['stimulators'],
+           intensity=intensities
+    )
+  script: '../scripts/merge_dataframes.py' 
+
+rule simulate_NEURONvars_data:
+  output: 'data/NEURONvars_data/{neuron}__{stimulator}__{intensity}.hdf'
+  params:
+    neuron_data = neuron_data,
+    stimulator_data = stimulator_data,
+    interpol_dt = config['interpol_dt'],
+    radius_min_max_step = config['radius_min_max_step'],
+    angle_min_max_step = config['angle_min_max_step'],
+    tot_rec_time = config['tot_rec_time'],
+    light_duration = config['light_duration'],
+    light_delay = config['light_delay'],
+    rec_vars = config['rec_vars'],
+  script: '../scripts/record_NEURONvars.py'
