@@ -1,6 +1,6 @@
 out_dir: 'data/L5Hay/'
 
-recordings: ['spatial_profiles.hdf', 'NEURONvars.hdf']
+recordings: ['spatial_profiles.hdf']
 # recordings: ['NEURONvars.hdf']
 
 neuronfile: 'workflows/neuron_data.csv'
