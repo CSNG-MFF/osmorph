@@ -6,10 +6,8 @@ from neurostim.analysis import multiply_seg_with_area
 
 # create variables and analysis
 ## record time and voltage at soma
-seg_rec_vars = [
-        ['time [ms]', 'V_soma(0.5)'],
-        ['h._ref_t', 'h.soma(0.5)._ref_v']
-]           
+seg_rec_vars = None # this way time and membr. voltage at soma will be automatically recorded
+           
 allseg_rec_var = None
 sim_data_transform = None
 def analyze_AP_count(sim_data, segs):
@@ -47,11 +45,8 @@ if bool(snakemake.params.record_conductances):
 # run simulation of spatial profile
 results = simulate_spatial_profile(
     cell_dict=dict(
-        cellname=snakemake.params.neuron_data.loc[
-            snakemake.wildcards.neuron].hoc,
-        cortical_depth=float(
-            snakemake.params.neuron_data.loc[snakemake.wildcards.neuron].cortical_depth
-            ),
+        cellmodel=snakemake.params.neuron_data.loc[
+            snakemake.wildcards.neuron].model,
         ChR_soma_density=snakemake.params.neuron_data.loc[
             snakemake.wildcards.neuron].ChR_soma_density,
         ChR_distribution=snakemake.params.neuron_data.loc[
@@ -72,7 +67,6 @@ results = simulate_spatial_profile(
         delay_ms=float(snakemake.params.light_delay),
         total_rec_time_ms=float(snakemake.params.tot_rec_time),
     ),
-    seg_rec_vars=seg_rec_vars,
     allseg_rec_var=allseg_rec_var,
     sim_data_transform=sim_data_transform,
     scalar_result_names=scalar_result_names,

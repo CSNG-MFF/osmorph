@@ -3,7 +3,7 @@ import pandas as pd
 neuron_data = pd.read_csv(
 	config['neuronfile'], 
 	index_col='neuron', 
-	dtype=dict(neuron=str, hoc=str, cortical_depth=float, 
+	dtype=dict(neuron=str, hoc=str, model=str, cortical_depth=float, 
 		ChR_soma_density=float, ChR_distribution=str)
 )
 stimulator_data = pd.read_csv(

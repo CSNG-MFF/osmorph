@@ -1,4 +1,4 @@
-out_dir: 'data/test/'
+out_dir: 'data/L5Hay/'
 
 recordings: ['spatial_profiles.hdf', 'NEURONvars.hdf']
 # recordings: ['NEURONvars.hdf']
@@ -9,10 +9,7 @@ intensityfile: 'workflows/intensity_data_sodcomp.csv'
 
 # neurons from neuron_data.hdf to be simulated:
 neurons : [
-        'L5_uniform_13e9',
-        'L5_uniform_13e9_dendlowsod20',
-        'L5_uniform_13e9_dendlowsod30',
-        'L5_uniform_13e9_dendlowsod50',
+        'L5Hay_uniform_13e9',
 ]
 # stimulators from stimulator_data.hdf to be simulated
 stimulators : ['fiber_200_0.22']
