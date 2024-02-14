@@ -3,7 +3,6 @@ import pandas as pd
 from neurostim.analysis import simulate_spatial_profile
 from neurostim.analysis import get_AP_count
 from neurostim.analysis import multiply_seg_with_area
-
 # create variables and analysis
 ## record time and voltage at soma
 seg_rec_vars = None # this way time and membr. voltage at soma will be automatically recorded
@@ -67,6 +66,7 @@ results = simulate_spatial_profile(
         delay_ms=float(snakemake.params.light_delay),
         total_rec_time_ms=float(snakemake.params.tot_rec_time),
     ),
+    seg_rec_vars=None,
     allseg_rec_var=allseg_rec_var,
     sim_data_transform=sim_data_transform,
     scalar_result_names=scalar_result_names,
