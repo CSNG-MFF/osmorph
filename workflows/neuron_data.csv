@@ -14,4 +14,7 @@ L23_shemesh_supfig9b_exp_lin_yoff_13e10,L23,L23_catV1,400.0,130000000000.0,sheme
 L5_uniform_13e9_dendlowsod20,L5dendlowsod20,L5_catV1,1170.0,13000000000.0,uniform
 L5_uniform_13e9_dendlowsod30,L5dendlowsod30,L5_catV1,1170.0,13000000000.0,uniform
 L5_uniform_13e9_dendlowsod50,L5dendlowsod50,L5_catV1,1170.0,13000000000.0,uniform
+L5_uniform_13e9_dendlowsodpot20,L5dendlowsodpot20,L5_catV1,1170.0,13000000000.0,uniform
+L5_uniform_13e9_dendlowsodpot30,L5dendlowsodpot30,L5_catV1,1170.0,13000000000.0,uniform
+L5_uniform_13e9_dendlowsodpot50,L5dendlowsodpot50,L5_catV1,1170.0,13000000000.0,uniform
 L5Hay_uniform_13e9,None,L5_Hay2011,1200,13000000000.0,uniform
