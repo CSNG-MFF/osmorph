@@ -1,5 +1,6 @@
 from neuron import h
 from neurostim.cell import Cell
+from neurostim.models import *
 from neurostim.stimulator import Stimulator
 from neurostim.simulation import SimControl
 from neurostim.utils import convert_polar_to_cartesian_xz
@@ -9,11 +10,8 @@ import pandas as pd
 
 # run simulation 
 cell_dict=dict(
-    cellname=snakemake.params.neuron_data.loc[
-        snakemake.wildcards.neuron].hoc,
-    cortical_depth=float(
-        snakemake.params.neuron_data.loc[snakemake.wildcards.neuron].cortical_depth
-        ),
+    cellmodel=snakemake.params.neuron_data.loc[
+        snakemake.wildcards.neuron].model,
     ChR_soma_density=snakemake.params.neuron_data.loc[
         snakemake.wildcards.neuron].ChR_soma_density,
     ChR_distribution=snakemake.params.neuron_data.loc[
@@ -42,8 +40,7 @@ h.load_file("stdrun.hoc")
 h.cvode_active(1)
 # load cell
 cell = Cell(
-    hoc_file="simneurostim/model/hoc/" + cell_dict['cellname'] + ".hoc",
-    cortical_depth=cell_dict['cortical_depth'],
+    model=eval(cell_dict['cellmodel']),
     ChR_soma_density = cell_dict['ChR_soma_density'],
     ChR_distribution=cell_dict['ChR_distribution'],
     rm_mech_from_secs=None,
