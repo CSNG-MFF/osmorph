@@ -40,10 +40,9 @@ h.load_file("stdrun.hoc")
 h.cvode_active(1)
 # load cell
 cell = Cell(
-    model=eval(cell_dict['cellmodel']),
+    model=eval(cell_dict['cellmodel']+'()'),
     ChR_soma_density = cell_dict['ChR_soma_density'],
     ChR_distribution=cell_dict['ChR_distribution'],
-    rm_mech_from_secs=None,
 )
 # init stimulator
 stimulator = Stimulator(
