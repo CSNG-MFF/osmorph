@@ -11,6 +11,7 @@ intensityfile: 'workflows/intensity_data_sodcomp.csv'
 neurons : [
         'L5Haycell1_uniform_13e9',
         'L5Haycell2_uniform_13e9',
+        'L5Haycell2vs_uniform_13e9',
 ]
 # stimulators from stimulator_data.hdf to be simulated
 stimulators : ['fiber_200_0.22']
