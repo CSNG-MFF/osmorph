@@ -14,7 +14,12 @@ stimulator_data = pd.read_csv(
 intensities = pd.read_csv(config['intensityfile'], index_col=0).intensity.values
 
 rule all:
-  input: [config['out_dir']+outfile for outfile in config['recordings']]
+  input: [config['out_dir']+outfile for outfile in config['outputfiles']]
+
+rule analyze_spatial_resolution:
+  output: config['out_dir']+'spatial_resolution.hdf'
+  input: config['out_dir']+'spatial_profiles.hdf'
+  script: '../scripts/analyze_spatial_resolution.py'
 
 rule merge_spatial_data:
   output: config['out_dir']+'spatial_profiles.hdf'
