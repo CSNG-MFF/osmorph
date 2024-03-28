@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="164.49327mm"
-   height="142.61546mm"
-   viewBox="0 0 164.49327 142.61547"
+   width="147.86168mm"
+   height="122.07047mm"
+   viewBox="0 0 147.86168 122.07048"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -206,11 +206,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.90813724"
-     inkscape:cx="117.27915"
-     inkscape:cy="145.96292"
+     inkscape:zoom="0.76493098"
+     inkscape:cx="392.35935"
+     inkscape:cy="141.01122"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1848"
      inkscape:window-height="1016"
@@ -238,355 +238,37 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="WhiteBackground"
-     transform="translate(1.8920898e-7,1.2317911)">
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect910"
-       width="160.49425"
-       height="141.35274"
-       x="1.9908944"
-       y="-1.0992911"
-       rx="0.33667699"
-       ry="0.30369934"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-  </g>
+     transform="translate(-8.4819949,-3.0015423)" />
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Layer 0-"
-     transform="translate(-33.184025,-3.0130703)" />
+     transform="translate(-41.66602,-7.2464037)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 0"
-     transform="translate(-33.184025,-3.0130703)" />
+     transform="translate(-41.66602,-7.2464037)" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-51.356032,109.38379)" />
+     transform="translate(-59.838027,105.15046)" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Layer 2"
-     transform="translate(-33.184025,-3.0130703)" />
+     transform="translate(-41.66602,-7.2464037)" />
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Layer 3"
-     transform="translate(-33.184025,-3.0130703)">
-    <g
-       id="g1012"
-       transform="translate(0,-11.1125)"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900">
-      <image
-         sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/L5_13e10_response_radius.png"
-         xlink:href="plots/L5_13e10_response_radius.png"
-         y="80.160034"
-         x="33.184025"
-         id="image982"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="76.538666"
-         width="83.82" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="85.670502"
-         y="98.501862"
-         id="text1017"
-         transform="rotate(21.223988)"><tspan
-           sodipodi:role="line"
-           id="tspan1015"
-           x="85.670502"
-           y="98.501862"
-           style="stroke-width:0.26458332">strict somatic</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="84.511726"
-         y="86.434151"
-         id="text1021"
-         transform="rotate(21.223988)"><tspan
-           sodipodi:role="line"
-           id="tspan1019"
-           x="84.511726"
-           y="86.434151"
-           style="stroke-width:0.26458332">no targeting</tspan></text>
-    </g>
-    <image
-       sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/L23_13e10_response_radius.png"
-       xlink:href="plots/L23_13e10_response_radius.png"
-       inkscape:export-ydpi="900"
-       inkscape:export-xdpi="900"
-       y="69.005203"
-       x="113.77264"
-       id="image946"
-       style="image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
-       height="76.623337"
-       width="83.904663" />
-    <text
-       inkscape:export-ydpi="900"
-       inkscape:export-xdpi="900"
-       id="text3804-6-1"
-       y="78.239807"
-       x="71.434364"
-       style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.26458332"
-         y="78.239807"
-         x="71.434364"
-         id="tspan3802-1-27"
-         sodipodi:role="line">L5 neuron</tspan></text>
-    <text
-       inkscape:export-ydpi="900"
-       inkscape:export-xdpi="900"
-       id="text3796-0-0"
-       y="78.239807"
-       x="150.52577"
-       style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         id="tspan3798-62-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.26458332"
-         y="78.239807"
-         x="150.52577"
-         sodipodi:role="line">L2/3 neuron</tspan></text>
-  </g>
+     transform="translate(-41.66602,-7.2464037)" />
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="textlayer"
-     transform="translate(-33.184025,-3.0130703)">
-    <g
-       id="g3857"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900">
-      <image
-         sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/neuron_display_50_0.1.png"
-         xlink:href="plots/neuron_display_50_0.1.png"
-         transform="translate(-18.172007,112.39686)"
-         y="-97.105934"
-         x="55.536926"
-         id="image3851"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="58.072887"
-         width="32.397884"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"
-         clip-path="url(#clipPath3848)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="53.638794"
-         y="11.427134"
-         id="text3975"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"><tspan
-           sodipodi:role="line"
-           id="tspan3973"
-           x="53.638794"
-           y="11.427134"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332">d=50 µm,</tspan><tspan
-           sodipodi:role="line"
-           x="53.638794"
-           y="15.836856"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           id="tspan79">NA=0.1</tspan></text>
-    </g>
-    <g
-       id="g3864"
-       transform="translate(-6.614656)"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900">
-      <image
-         sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/neuron_display_50_0.22.png"
-         xlink:href="plots/neuron_display_50_0.22.png"
-         transform="translate(-18.172007,112.39686)"
-         y="-97.105934"
-         x="87.650421"
-         id="image3862"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="58.072887"
-         width="32.397884"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"
-         clip-path="url(#clipPath3844)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="85.752289"
-         y="11.427134"
-         id="text3975-3"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"><tspan
-           sodipodi:role="line"
-           id="tspan3973-5"
-           x="85.752289"
-           y="11.427134"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332">d=50 µm,</tspan><tspan
-           sodipodi:role="line"
-           x="85.752289"
-           y="15.836856"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           id="tspan81">NA=0.22</tspan></text>
-    </g>
-    <g
-       id="g3871"
-       transform="translate(-13.229295)"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900">
-      <image
-         sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/neuron_display_200_0.22.png"
-         xlink:href="plots/neuron_display_200_0.22.png"
-         transform="translate(-18.172007,112.39686)"
-         y="-97.105934"
-         x="119.7639"
-         id="image3873"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="58.072887"
-         width="32.397884"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"
-         clip-path="url(#clipPath3840)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="117.86577"
-         y="11.427134"
-         id="text3975-6"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"><tspan
-           sodipodi:role="line"
-           id="tspan3973-2"
-           x="117.86577"
-           y="11.427134"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332">d=200 µm,</tspan><tspan
-           sodipodi:role="line"
-           x="117.86577"
-           y="15.836856"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           id="tspan83">NA=0.22</tspan></text>
-    </g>
-    <g
-       id="g3878"
-       transform="translate(-19.843734)"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900">
-      <image
-         sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/neuron_display_200_0.39.png"
-         xlink:href="plots/neuron_display_200_0.39.png"
-         transform="translate(-18.172007,112.39686)"
-         y="-97.105934"
-         x="151.8772"
-         id="image3884"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="58.072887"
-         width="32.397884"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"
-         clip-path="url(#clipPath3836)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="149.80681"
-         y="11.427134"
-         id="text3975-6-9"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"><tspan
-           sodipodi:role="line"
-           id="tspan3973-2-1"
-           x="150.29688"
-           y="11.427134"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332">d=200 µm, </tspan><tspan
-           sodipodi:role="line"
-           x="149.80681"
-           y="15.836856"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           id="tspan85">NA=0.39</tspan></text>
-    </g>
-    <g
-       id="g3895"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900">
-      <image
-         sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/neuron_display_400_0.39.png"
-         xlink:href="plots/neuron_display_400_0.39.png"
-         transform="translate(-44.630341,112.39686)"
-         y="-97.105934"
-         x="183.99065"
-         id="image3895"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="58.072887"
-         width="32.397884"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"
-         clip-path="url(#clipPath3832)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="155.63417"
-         y="11.427134"
-         id="text3975-6-9-2"
-         inkscape:export-xdpi="900"
-         inkscape:export-ydpi="900"><tspan
-           sodipodi:role="line"
-           id="tspan3973-2-1-7"
-           x="155.63417"
-           y="11.427134"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332">d=400 µm,</tspan><tspan
-           sodipodi:role="line"
-           x="155.63417"
-           y="15.836856"
-           style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           id="tspan87">NA=0.39</tspan></text>
-    </g>
-    <text
-       inkscape:export-ydpi="900"
-       inkscape:export-xdpi="900"
-       id="text3804-6-3"
-       y="7.1258249"
-       x="35.042419"
-       style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.26458332"
-         y="7.1258249"
-         x="35.042419"
-         id="tspan3802-1-6"
-         sodipodi:role="line">A</tspan></text>
-    <text
-       inkscape:export-ydpi="900"
-       inkscape:export-xdpi="900"
-       id="text3804-6-3-7"
-       y="72.55938"
-       x="34.735806"
-       style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.26458332"
-         y="72.55938"
-         x="34.735806"
-         id="tspan3802-1-6-5"
-         sodipodi:role="line">B</tspan></text>
-    <text
-       inkscape:export-ydpi="900"
-       inkscape:export-xdpi="900"
-       id="text3975-6-3"
-       y="6.81318"
-       x="115.74908"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         id="tspan83-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         y="6.81318"
-         x="115.74908"
-         sodipodi:role="line">Variation of optical fiber diameter (d) and numerical aperture (NA)</tspan></text>
+     transform="translate(-41.66602,-7.2464037)">
     <text
        id="text987"
        y="79.509422"
@@ -622,97 +304,407 @@
          x="89.685883"
          id="tspan989-6"
          sodipodi:role="line" /></text>
-    <text
-       inkscape:export-ydpi="900"
-       inkscape:export-xdpi="900"
-       id="text3975-6-3-7"
-       y="72.246735"
-       x="115.74908"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         id="tspan83-7-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         y="72.246735"
-         x="115.74908"
-         sodipodi:role="line">Variation of response space constant (1300 ch/µm²)</tspan></text>
-    <text
-       transform="rotate(33.560055)"
-       id="text1017-6"
-       y="21.490114"
-       x="162.69989"
-       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900"><tspan
-         style="stroke-width:0.26458332"
-         y="21.490114"
-         x="162.69989"
-         id="tspan1015-2"
-         sodipodi:role="line">strict somatic</tspan></text>
-    <text
-       transform="rotate(33.560055)"
-       id="text1021-9"
-       y="10.983683"
-       x="160.44446"
-       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900"><tspan
-         style="stroke-width:0.26458332"
-         y="10.983683"
-         x="160.44446"
-         id="tspan1019-1"
-         sodipodi:role="line">no targeting</tspan></text>
-    <image
-       sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/colobar_light_intensity.png"
-       xlink:href="plots/colobar_light_intensity.png"
-       inkscape:export-ydpi="900"
-       inkscape:export-xdpi="900"
-       width="21.928665"
-       height="47.498001"
-       preserveAspectRatio="none"
-       style="image-rendering:optimizeQuality"
-       id="image91"
-       x="168.58321"
-       y="16.547701" />
-    <text
-       transform="rotate(90)"
-       id="text3899"
-       y="-189.17616"
-       x="18.432404"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900"><tspan
-         style="font-size:3.52777767px;stroke-width:0.26458332"
-         y="-189.17616"
-         x="18.432404"
-         id="tspan3897"
-         sodipodi:role="line">normal. stimulation intensity</tspan></text>
     <g
-       id="g915"
-       transform="translate(-0.62011719,23.771159)"
-       inkscape:export-xdpi="900"
-       inkscape:export-ydpi="900">
+       id="g1098"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <rect
-         transform="rotate(-90)"
-         y="157.40013"
-         x="-38.107361"
-         height="5.2580771"
-         width="0.87815189"
-         id="rect906"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         ry="0.30369934"
+         rx="0.33667699"
+         y="3.1340423"
+         x="8.8700609"
+         height="121.29102"
+         width="145.9668"
+         id="rect910"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="translate(33.184025,4.2448614)" />
+      <g
+         style="stroke-width:1.11248088"
+         transform="matrix(0.8988919,0,0,0.8988919,11.83717,-1.5874393)"
+         id="g933">
+        <image
+           sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/L5_13e10_response_radius.png"
+           xlink:href="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/L5_13e10_response_radius.png"
+           y="69.047531"
+           x="33.184025"
+           id="image982-3"
+           style="stroke-width:1.11248088;image-rendering:optimizeQuality"
+           preserveAspectRatio="none"
+           height="76.538666"
+           width="83.82" />
+        <g
+           style="stroke-width:1.11248088"
+           id="g923">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29434386"
+             x="81.647614"
+             y="88.143097"
+             id="text1017-67"
+             transform="rotate(21.223988)"><tspan
+               sodipodi:role="line"
+               id="tspan1015-5"
+               x="81.647614"
+               y="88.143097"
+               style="font-size:3.52777767px;stroke-width:0.29434386">strict somatic</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29434386"
+             x="80.488838"
+             y="76.075386"
+             id="text1021-3"
+             transform="rotate(21.223988)"><tspan
+               sodipodi:role="line"
+               id="tspan1019-5"
+               x="80.488838"
+               y="76.075386"
+               style="font-size:3.52777767px;stroke-width:0.29434386">no targeting</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29434386"
+             x="69.668327"
+             y="78.239807"
+             id="text3804-6-1-6"
+             inkscape:export-xdpi="900"
+             inkscape:export-ydpi="900"><tspan
+               sodipodi:role="line"
+               id="tspan3802-1-27-2"
+               x="69.668327"
+               y="78.239807"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.29434386">L5 neuron</tspan></text>
+        </g>
+      </g>
+      <g
+         style="stroke-width:1.11248088"
+         transform="matrix(0.8988919,0,0,0.8988919,11.83717,-1.5874393)"
+         id="g945">
+        <image
+           sodipodi:absref="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/L23_13e10_response_radius.png"
+           xlink:href="/home/david/Projects/optogenetic_whole_cell_activation/morph_impact_on_opt_stim/paper/NEW_FIGURES/FIG6/plots/L23_13e10_response_radius.png"
+           width="83.904663"
+           height="76.623337"
+           preserveAspectRatio="none"
+           style="stroke-width:1.11248088;image-rendering:optimizeQuality"
+           id="image946-9"
+           x="113.77264"
+           y="69.005203"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900" />
+        <text
+           inkscape:export-ydpi="900"
+           inkscape:export-xdpi="900"
+           id="text3796-0-0-1"
+           y="78.239807"
+           x="149.93712"
+           style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29434386"
+           xml:space="preserve"><tspan
+             id="tspan3798-62-9-2"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.29434386"
+             y="78.239807"
+             x="149.93712"
+             sodipodi:role="line">L2/3 neuron</tspan></text>
+        <text
+           transform="rotate(33.560055)"
+           id="text1017-6-7"
+           y="21.15653"
+           x="166.07445"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29434386"
+           xml:space="preserve"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900"><tspan
+             style="font-size:3.52777767px;stroke-width:0.29434386"
+             y="21.15653"
+             x="166.07445"
+             id="tspan1015-2-0"
+             sodipodi:role="line">strict somatic</tspan></text>
+        <text
+           transform="rotate(33.560055)"
+           id="text1021-9-9"
+           y="12.891614"
+           x="160.44011"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29434386"
+           xml:space="preserve"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900"><tspan
+             style="font-size:3.52777767px;stroke-width:0.29434386"
+             y="12.891614"
+             x="160.44011"
+             id="tspan1019-1-3"
+             sodipodi:role="line">no targeting</tspan></text>
+      </g>
+      <g
+         transform="translate(2.1166667)"
+         inkscape:export-ydpi="900"
+         inkscape:export-xdpi="900"
+         id="g3857">
+        <image
+           sodipodi:absref="/home/david/Projects/osmorph/figures/fig8/plots/neuron_display_50_0.1.png"
+           xlink:href="plots/neuron_display_50_0.1.png"
+           transform="translate(-18.172007,112.39686)"
+           y="-97.105934"
+           x="55.536926"
+           id="image3851"
+           style="image-rendering:optimizeQuality"
+           preserveAspectRatio="none"
+           height="58.072887"
+           width="32.397884"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900"
+           clip-path="url(#clipPath3848)" />
+        <text
+           inkscape:export-ydpi="900"
+           inkscape:export-xdpi="900"
+           id="text3975"
+           y="11.427134"
+           x="53.638794"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="11.427134"
+             x="53.638794"
+             id="tspan3973"
+             sodipodi:role="line">d=50 µm,</tspan><tspan
+             id="tspan79"
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="15.836856"
+             x="53.638794"
+             sodipodi:role="line">NA=0.1</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="900"
+         inkscape:export-xdpi="900"
+         transform="translate(-5.5563226)"
+         id="g3864">
+        <image
+           sodipodi:absref="/home/david/Projects/osmorph/figures/fig8/plots/neuron_display_50_0.22.png"
+           xlink:href="plots/neuron_display_50_0.22.png"
+           transform="translate(-18.172007,112.39686)"
+           y="-97.105934"
+           x="87.650421"
+           id="image3862"
+           style="image-rendering:optimizeQuality"
+           preserveAspectRatio="none"
+           height="58.072887"
+           width="32.397884"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900"
+           clip-path="url(#clipPath3844)" />
+        <text
+           inkscape:export-ydpi="900"
+           inkscape:export-xdpi="900"
+           id="text3975-3"
+           y="11.427134"
+           x="85.752289"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="11.427134"
+             x="85.752289"
+             id="tspan3973-5"
+             sodipodi:role="line">d=50 µm,</tspan><tspan
+             id="tspan81"
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="15.836856"
+             x="85.752289"
+             sodipodi:role="line">NA=0.22</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="900"
+         inkscape:export-xdpi="900"
+         transform="translate(-13.229295)"
+         id="g3871">
+        <image
+           sodipodi:absref="/home/david/Projects/osmorph/figures/fig8/plots/neuron_display_200_0.22.png"
+           xlink:href="plots/neuron_display_200_0.22.png"
+           transform="translate(-18.172007,112.39686)"
+           y="-97.105934"
+           x="119.7639"
+           id="image3873"
+           style="image-rendering:optimizeQuality"
+           preserveAspectRatio="none"
+           height="58.072887"
+           width="32.397884"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900"
+           clip-path="url(#clipPath3840)" />
+        <text
+           inkscape:export-ydpi="900"
+           inkscape:export-xdpi="900"
+           id="text3975-6"
+           y="11.427134"
+           x="117.86577"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="11.427134"
+             x="117.86577"
+             id="tspan3973-2"
+             sodipodi:role="line">d=200 µm,</tspan><tspan
+             id="tspan83"
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="15.836856"
+             x="117.86577"
+             sodipodi:role="line">NA=0.22</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="900"
+         inkscape:export-xdpi="900"
+         transform="translate(-20.902068)"
+         id="g3878">
+        <image
+           sodipodi:absref="/home/david/Projects/osmorph/figures/fig8/plots/neuron_display_200_0.39.png"
+           xlink:href="plots/neuron_display_200_0.39.png"
+           transform="translate(-18.172007,112.39686)"
+           y="-97.105934"
+           x="151.8772"
+           id="image3884"
+           style="image-rendering:optimizeQuality"
+           preserveAspectRatio="none"
+           height="58.072887"
+           width="32.397884"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900"
+           clip-path="url(#clipPath3836)" />
+        <text
+           inkscape:export-ydpi="900"
+           inkscape:export-xdpi="900"
+           id="text3975-6-9"
+           y="11.427134"
+           x="149.80681"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="11.427134"
+             x="150.29688"
+             id="tspan3973-2-1"
+             sodipodi:role="line">d=200 µm, </tspan><tspan
+             id="tspan85"
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="15.836856"
+             x="149.80681"
+             sodipodi:role="line">NA=0.39</tspan></text>
+      </g>
+      <g
+         transform="translate(-2.1166667)"
+         inkscape:export-ydpi="900"
+         inkscape:export-xdpi="900"
+         id="g3895">
+        <image
+           sodipodi:absref="/home/david/Projects/osmorph/figures/fig8/plots/neuron_display_400_0.39.png"
+           xlink:href="plots/neuron_display_400_0.39.png"
+           transform="translate(-44.630341,112.39686)"
+           y="-97.105934"
+           x="183.99065"
+           id="image3895"
+           style="image-rendering:optimizeQuality"
+           preserveAspectRatio="none"
+           height="58.072887"
+           width="32.397884"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900"
+           clip-path="url(#clipPath3832)" />
+        <text
+           inkscape:export-ydpi="900"
+           inkscape:export-xdpi="900"
+           id="text3975-6-9-2"
+           y="11.427134"
+           x="155.63417"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="11.427134"
+             x="155.63417"
+             id="tspan3973-2-1-7"
+             sodipodi:role="line">d=400 µm,</tspan><tspan
+             id="tspan87"
+             style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             y="15.836856"
+             x="155.63417"
+             sodipodi:role="line">NA=0.39</tspan></text>
+      </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="153.28195"
-         y="35.812843"
-         id="text910"><tspan
+         style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="42.599529"
+         y="11.416799"
+         id="text3804-6-3"
+         inkscape:export-xdpi="900"
+         inkscape:export-ydpi="900"><tspan
            sodipodi:role="line"
-           id="tspan908"
-           x="153.28195"
+           id="tspan3802-1-6"
+           x="42.599529"
+           y="11.416799"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.26458332">A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="42.341148"
+         y="68.38369"
+         id="text3804-6-3-7"
+         inkscape:export-xdpi="900"
+         inkscape:export-ydpi="900"><tspan
+           sodipodi:role="line"
+           id="tspan3802-1-6-5"
+           x="42.341148"
+           y="68.38369"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.26458332">B</tspan></text>
+      <g
+         transform="translate(-4.2333335)"
+         id="g1013">
+        <image
+           sodipodi:absref="/home/david/Projects/osmorph/figures/fig8/plots/colobar_light_intensity.png"
+           xlink:href="plots/colobar_light_intensity.png"
+           y="16.547701"
+           x="168.58321"
+           id="image91"
+           style="image-rendering:optimizeQuality"
+           preserveAspectRatio="none"
+           height="47.498001"
+           width="21.928665"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900" />
+        <text
+           transform="rotate(90)"
+           id="text3899"
+           y="-189.17616"
+           x="18.432404"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"
+           inkscape:export-xdpi="900"
+           inkscape:export-ydpi="900"><tspan
+             style="font-size:3.52777767px;stroke-width:0.26458332"
+             y="-189.17616"
+             x="18.432404"
+             id="tspan3897"
+             sodipodi:role="line">normal. stimulation intensity</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="900"
+         inkscape:export-xdpi="900"
+         transform="translate(-0.62011719,23.771159)"
+         id="g915">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect906"
+           width="0.87815189"
+           height="5.2580771"
+           x="-38.107361"
+           y="157.40013"
+           transform="rotate(-90)" />
+        <text
+           id="text910"
            y="35.812843"
-           style="font-size:3.52777767px;stroke-width:0.26458332">200 µm</tspan></text>
+           x="153.28195"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-size:3.52777767px;stroke-width:0.26458332"
+             y="35.812843"
+             x="153.28195"
+             id="tspan908"
+             sodipodi:role="line">200 µm</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
